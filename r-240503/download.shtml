@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> DOWNLOAD PAGE </title>
+	<style>
+		h1{
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<h1> DOWNLOAD PAGE </h1>
+	<a href="/../download" download="MT.zip">Down MT.apk</a>
+	<a href="/../download" download="ecmod.zip">Down ecmod.zip</a>
+</body>
+	<p>
+
+	</p>
+	<a href="index.html">back</a>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>JUMPING</title>
+		<style>
+			h1{
+				color:red
+			}
+		</style>
+		<meta http-equiv="refresh" content=".5;URL=video.shtml">
+	</head>
+	<body>
+		<h1>本人已长期停更视频:-)</h1>
+		<h2>0.5秒后跳转</h2>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<a href="index.shtml">back</a>
+	</body>
+</html>

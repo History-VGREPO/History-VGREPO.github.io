@@ -1,0 +1,36 @@
+<!DOCTYPE html>  
+<html lang="ch">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>TimeShowDebug</title>
+	 <meta http-equiv="refresh" content="0.8">
+    <script>  
+        function showDateTimeTimestamp() {  
+            // 获取当前日期和时间  
+            const now = new Date();  
+  
+            // 格式化日期和时间  
+            const formattedDate = now.toLocaleDateString();  
+            const formattedTime = now.toLocaleTimeString();  
+  
+            // 获取Unix时间戳（毫秒）  
+            const timestampMillis = now.getTime();  
+  
+            // 转换为Unix时间戳（秒）  
+            const timestampSeconds = Math.floor(timestampMillis / 1000);  
+  
+            // 更新HTML元素的内容  
+            document.getElementById('date').textContent = formattedDate;  
+            document.getElementById('time').textContent = formattedTime;  
+            document.getElementById('timestamp').textContent = timestampSeconds;  
+        }  
+    </script>  
+</head>  
+<body onload="showDateTimeTimestamp()">  
+    <h1>当前日期、时间以及Unix时间戳</h1>  
+    <p>日期: <span id="date"></span></p>  
+    <p>时间: <span id="time"></span></p>  
+    <p>Unix时间戳（秒）: <span id="timestamp"></span></p>  
+</body>  
+</html>

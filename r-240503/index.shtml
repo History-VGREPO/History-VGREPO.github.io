@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang="ch">  
+//modify information//
+<html>
+	<head>
+		<title>VG HomePage v1.5.1</title>
+		<style>
+				body{
+					background-color:rgb(138,204,182);
+					color:rgb(138,204,182)
+				}
+		</style>
+		<meta charset="UTF-8">  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+		<style>  
+  			body {  
+    		margin: 0;  
+    		padding: 0;  
+    		font-family: Arial, sans-serif;  
+  			}  
+  
+  			.navbar {  
+    		background-color:rgb(124,166,182);  
+    		overflow: hidden;  
+  			}  
+  
+  			.navbar a {  
+    		float: middle;  
+    		display: block;  
+    		color: #f2f2f2;  
+    		text-align: center;  
+    		padding: 16px 18px;  
+    		text-decoration: none;  
+    		font-size: 17px;  
+  			}  
+
+			.navbar .brand {
+			font-size:24px;
+			padding:10px 0;
+			}
+  
+  			.navbar a:hover {  
+    		background-color: #ddd;  
+    		color: black;  
+  			}  
+  
+  			.navbar::after {  
+   		 content: "";  
+    		display: table;  
+    		clear: both;  
+  			}  
+			</style>  
+
+	</head>
+	<body>
+		<div class="navbar">
+		<a href="https://cn-vapegirl233.github.io/" class="brand">VG HomePage</a>
+  		<a href="/../index.html">主页</a>  
+  		<a href="share.shtml">共享</a>  
+  		<a href="update.shtml">更新</a>  
+  		<a href="https://github.com/cn-vapegirl233/cn-vapegirl233.github.io/">Github</a>  
+		<a href="debug.shtml">Debug</a>
+		<a href="download.shtml">下载</a>
+		<a href="https://pixelcloud.cn/servers/662c7e793f52830034c04c1f">服务器官网</a>
+		
+		</div>  
+		<a href="https://space.bilibili.com/619002007/"><img id="slide_photo" src="/../img/bilihub.png"></img></a>
+		<a href="servernotice.shtml"><img id="slide_photo" src="/../img/servernotice.png"></img></a>
+		<a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=BzFfIQqqeHifgOYtB-yEQVu-xcmzW-Ph&authKey=kAJNDk9fVHs7XeqBLU0E%2FxJ1MLl6JnsfmTkJ4msMdYJoSV903Anqz9Mf28O2WRwv&noverify=0&group_code=946671085"><img id="slide_photo" src="/../img/serverqq1.jpeg"></img></a>
+		<script>
+
+		var i=0/* 图片索引 */
+		var arr=new Array();		/* 图片列表 */
+
+		arr[0]="/../img/bilihub.png";
+		arr[1]="/../img/servernotice.png";
+		arr[2]="/../img/serverqq1.jpeg";
+
+
+		function slide_photos()
+		{
+			var photo=document.getElementById(slide_photo);
+			if (i==arr.length-1)
+			{
+				i=0;
+			}
+			else
+			{
+				i+=1;
+			}
+			photo.src=arr[i];/* 直接定义照片 *	
+		}
+		/* 重新加载的时间 */
+		setInterval("slide_photos()",50);
+
+		</script>
+
+
+		<script>
+			function showmessage(QQ){
+				message("QQ3179068910");
+			}
+		</script>
+			<button onclick="showmessage(QQ)">QQ</button>
+		
+		<p></p>
+		
+		<script>
+			function showmessage(email){
+				message("邮箱bili-vapegirl233_official@hotmail.com");
+			}
+		</script>
+			<button onclick="showmessage(email)">邮箱</button>
+		
+		<p></p>
+		
+		<script>
+			function showmessage(bili){
+				message("B站:注诛仙女233_,UID:619002007");
+			}
+		</script>
+			<button onclick="showmessage(bili)">B站</button>
+
+		<p> </p>
+		<p> </p>
+		<p> </p>
+		
+	</body>
+</html>

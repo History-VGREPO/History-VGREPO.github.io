@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>VG Debug</title>
+		<style>
+				h1{
+					color:rgb(255,204,182);
+				}
+		</style>
+		<style>
+				body{
+					background-color:rgb(138,204,182);
+					color:rgb(138,204,182)
+				}
+		</style>
+	</head>
+	<body>
+		<li> <a href="index.shtml">back</a> </li>
+		<li> <a href="time.shtml">timeshow_debug</a> </li>
+	</body>
+</html>
